@@ -51,7 +51,7 @@ for element in A:
 	if element == target:
 		print("Found", target)
 ```
-![Alt text](LeetCode/ClassOne/forloop.png?raw=true "for loop")
+![Alt text](forloop.png?raw=true "for loop")
 ```sh
 a = [1,8,13,5,4]
 find = 5
