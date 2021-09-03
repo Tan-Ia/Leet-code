@@ -80,7 +80,7 @@ There are different types of time complexities used, let’s see one by one:
 - **Cubic time – O (n^3)**
 
 ![Alt text](relative/path/to/img.jpg?raw=true "time complexity")
-![Alt text](relative/path/to/img.jpg?raw=true "time complexity")
+![Alt text](n-Ia/Leet-code/blob/main/ClassOne/bigO.png?raw=true "time complexity")
 ## Some Array Problem
 - Reverse Array
 ```sh
