@@ -62,7 +62,7 @@ while start < end:
         print("Found")
     start +=1
 ```
-![Alt text](LeetCode/ClassOne/while_loop.png?raw=true "whileloop")
+![Alt text](while_loop.png?raw=true "whileloop")
 
 Each of the operation in computer take approximately constant time. Let each operation takes c time. The number of lines of code executed is actually depends on the value of x. During analyses of algorithm, mostly we will consider worst case scenario ,when x is not present in the array . In the worst case, the if condition will run N times where is the length of the array A. So in the worst case, total execution time will be **O[n]** where O is the **order of growth** and n is the length of input. It is also called as **Big O Notation**.
 
@@ -79,8 +79,8 @@ There are different types of time complexities used, let’s see one by one:
 - **Quadratic time – O (n^2)**
 - **Cubic time – O (n^3)**
 
-![Alt text](LeetCode/ClassOne/time_complexity.png?raw=true "time complexity")
-![Alt text](LeetCode/ClassOne/bigO.png?raw=true "bigO.png")
+![Alt text](time_complexity.png?raw=true "time complexity")
+![Alt text](bigO.png?raw=true "bigO.png")
 ## Some Array Problem
 - Reverse Array
 ```sh
