@@ -1,1 +1,5 @@
-# Leet-code
+# Leet Code
+
+## ClassOne
+ - Array
+ - Time Complexity 
