@@ -4,7 +4,7 @@
 ### Array
 Array is a data structure that contains a group of elements. Typically these elements are all of the same data type, such as an integer or string.
 In python, A list is a data structure in Python that is a mutable, or changeable, **ordered sequence of elements**.
-What is **ordered sequence**?
+#### What is **ordered sequence**?
 In Python, sequence is the generic term for an ordered set. There are several types of sequences in Python, the following three are the most important.
 - Lists are the most versatile sequence type
 - Tuples are like lists, but they are immutable
@@ -82,7 +82,7 @@ There are different types of time complexities used, let’s see one by one:
 ![Alt text](time_complexity.png?raw=true "time complexity")
 ![Alt text](bigO.png?raw=true "bigO.png")
 ## Some Array Problem
-- Reverse Array
+- Reverse Integer (Leet Code 7 )
 ```sh
 #reverse with worst case time complexity o(n) space complexity o(n)
 #return reverse list 
@@ -95,7 +95,21 @@ while start >= end:
     start -= 1
 print(result)
 ```
+```sh
+#reverse with Best case time complexity o(n/2) space complexity o(n/2)
+# reverse list with pivot 
+a = [1,2,3,4]
 
+start = 0
+end = len(a) - 1
+while start <= end:
+    temp = a[start]
+    a[start] = a[end]
+    a[end] = temp
+    start += 1
+    end -= 1
+print(a)
+```
 
 
 
