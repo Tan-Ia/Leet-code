@@ -95,7 +95,7 @@ while start >= end:
     start -= 1
 print(result)
 ```
-![Alt text](relative/path/to/img.jpg?raw=true "reverse ")
+![Alt text](reverse.png?raw=true "reverse")
 ```sh
 #reverse with Best case time complexity o(n/2) space complexity o(n/2)
 # reverse list with pivot 
@@ -111,7 +111,7 @@ while start <= end:
     end -= 1
 print(a)
 ```
-![Alt text](relative/path/to/img.jpg?raw=true "reverse with pivot")
+![Alt text](reverse_pivot.png?raw=true "reverse with pivot")
 
 
 
